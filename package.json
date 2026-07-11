@@ -1,0 +1,17 @@
+{
+  "name": "formations-automation",
+  "version": "1.0.0",
+  "description": "Automatisation ateliers formations avec paiement Stripe",
+  "main": "api/webhook.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.7",
+    "ical-generator": "^4.1.0"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}
